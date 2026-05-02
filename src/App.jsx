@@ -9,6 +9,9 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
+      {/* Cinematic noise grain overlay */}
+      <div className="noise-overlay" />
+      
       <Navbar />
       <main>
         <ScrollytellingHero />
